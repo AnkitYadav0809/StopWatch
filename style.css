@@ -1,5 +1,6 @@
 body {
-background: black;  
+background: black; 
+background-color: rgba(201, 76, 76, 0.3); 
 
 font-family: 'Nunito', sans-serif;
 display: flex;
@@ -9,12 +10,18 @@ min-height: 100vh;
 overflow: hidden;
 align-items: center;
 }
+#img
+{
+    width: 1px;
+    height: 1px;
+    
+}
 
 #timer{
     font-size: 7rem;
     font-weight: 600;
     text-shadow: 2px 2px #5f5f56;
-    color: #F1F2B5;
+    color: black;
     width: 500px;
     text-align: center;
     margin: 40px auto;
